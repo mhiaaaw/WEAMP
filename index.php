@@ -17,7 +17,7 @@ include 'signin-check.php';
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <!-- CSS Style -->
-    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="css/styles.css">
     <style>
         .container {
             overflow: hidden;
@@ -91,7 +91,7 @@ include 'signin-check.php';
     <nav class="navbar navbar-expand-lg fixed-top" style="background-color:#C80000;">
         <div class="container">
             <a class="navbar-brand" href="public/index.php">
-                <img src="../assets/WAO-Logo.svg" alt="Header-Title" class="img-fluid" style="width: 300px; height: 80px;">
+                <img src="assets/WAO-Logo.svg" alt="Header-Title" class="img-fluid" style="width: 300px; height: 80px;">
             </a>
             <button style="width: 10%; height: 50%" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -99,27 +99,27 @@ include 'signin-check.php';
             <div class="collapse navbar-collapse navbar-center" id="navbarSupportedContent">
                 <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link" style="text-decoration: none; color: white" href="../public/index.php">Home</a>
+                        <a class="nav-link" style="text-decoration: none; color: white" href="public/index.php">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" style="text-decoration: none; color: white" href="../public/signup.php" id="rfaLink">RFA</a>
+                        <a class="nav-link" style="text-decoration: none; color: white" href="public/signup.php" id="rfaLink">RFA</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" style="text-decoration: none; color: white" href="../public/about.php">About</a>
+                        <a class="nav-link" style="text-decoration: none; color: white" href="public/about.php">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" style="text-decoration: none; color: white" href="../public/contact-us.php">Contact</a>
+                        <a class="nav-link" style="text-decoration: none; color: white" href="public/contact-us.php">Contact</a>
                     </li>
                     <div class="mr-5"></div>
                     <li>
                         <a class="nav-link" style="text-decoration: none; color: white" href="public/signup.php">
-                            <img src="../assets/User.svg" alt="My-Account" style="width: 20px; height: 20px; margin-right: 5px;">
+                            <img src="assets/User.svg" alt="My-Account" style="width: 20px; height: 20px; margin-right: 5px;">
                             Register
                         </a>
                     </li>
                     <li>
                         <a class="nav-link" style="text-decoration: none; color: white" href="public/login.php" onclick="showLogoutConfirmation()">
-                            <img src="../assets/Sign_in_squre.svg" alt="Sign-in" style="width: 20px; height: 20px; margin-right: 5px;">
+                            <img src="assets/Sign_in_squre.svg" alt="Sign-in" style="width: 20px; height: 20px; margin-right: 5px;">
                             Sign in
                         </a>
                     </li>
@@ -129,7 +129,7 @@ include 'signin-check.php';
     </nav>
 
     <div class="mt-5" style="padding-top:4%; margin-bottom: 20px;">
-        <img src="../assets/home-bg.svg" alt="" style="width: 100%; ">
+        <img src="assets/home-bg.svg" alt="" style="width: 100%; ">
     </div>
 
 
@@ -161,19 +161,19 @@ include 'signin-check.php';
             <ul class="list-unstyled d-flex justify-content-center">
                 <li class="text-center mx-2" style="padding-right: 3rem">
                     <a href="public/signup.php">
-                        <img src="../assets/Form.svg" alt="Form" class="img-fluid" style="width: 100px; height: 70px;">
+                        <img src="assets/Form.svg" alt="Form" class="img-fluid" style="width: 100px; height: 70px;">
                         <p style="color: black">Request for</br> Assistance</p>
                     </a>
                 </li>
                 <li class="text-center mx-2">
                     <a href="#">
-                        <img src="../assets/seminar.svg" alt="Seminar" class="img-fluid" style="width: 100px; height: 70px;">
+                        <img src="assets/seminar.svg" alt="Seminar" class="img-fluid" style="width: 100px; height: 70px;">
                         <p style="color: black">Seminar</p>
                     </a>
                 </li>
                 <li class="text-center mx-2" style="padding-left: 3rem">
                     <a href="#">
-                        <img src="../assets/note.svg" alt="Quit Claim" class="img-fluid" style="width: 100px; height: 70px;">
+                        <img src="assets/note.svg" alt="Quit Claim" class="img-fluid" style="width: 100px; height: 70px;">
                         <p style="color: black">Quit Claim</p>
                     </a>
                 </li>
@@ -194,7 +194,7 @@ include 'signin-check.php';
                 <!-- First div -->
                 <div class="col-md-4">
                     <div class="image-div">
-                        <img src="../assets/Online.svg" alt="Online" class="img-fluid">
+                        <img src="assets/Online.svg" alt="Online" class="img-fluid">
                         <p class="mt-3" style="font-family: sub-font;">
                             <span style=" font-family: sub-font-bold;">1. REGISTER </span><br>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. sed do eiusmod tempor.
@@ -205,7 +205,7 @@ include 'signin-check.php';
                 <!-- Second div -->
                 <div class="col-md-4">
                     <div class="image-div">
-                        <img src="../assets/Clock.svg" alt="Clock" class="img-fluid">
+                        <img src="assets/Clock.svg" alt="Clock" class="img-fluid">
                         <p class="mt-3" style=" font-family: sub-font;">
                             <span style=" font-family: sub-font-bold;">2. VERIFICATION / APPROVA</span> <br>
                             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -217,7 +217,7 @@ include 'signin-check.php';
                 <!-- Third div -->
                 <div class="col-md-4">
                     <div class="image-div">
-                        <img src="../assets/survey.svg" alt="Survey" class="img-fluid">
+                        <img src="assets/survey.svg" alt="Survey" class="img-fluid">
                         <p class="mt-3" style=" font-family: sub-font">
                             <span style=" font-family: sub-font-bold;">3. START POSTING</span> <br>
                             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
